@@ -76,6 +76,7 @@ color: #4D5AE5;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;  
+    padding: 24px 0;
 }
 .nav-link:active,
 .nav-link:hover,
@@ -85,10 +86,12 @@ color: #4D5AE5;
 .menu{
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
     
    
+}
+.menu-item{
+    padding: 24px 0;
 }
 .menu-contact{
     display: flex;
@@ -349,6 +352,11 @@ width: calc((100% - 72px) / 4)
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+    
+}
+.logo-footer{
     display: inline-block;
     margin-bottom: 16px;
 }
