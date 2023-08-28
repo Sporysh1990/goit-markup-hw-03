@@ -31,13 +31,14 @@ button{
 /*======================HEADER======================*/
 
 .page-header{
-   background-color: #FFF;
+background-color: #FFF;
   
 }
 .page-header-container{
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 0 15px 0 15px;
+    border-bottom: 1px solid #E7E9FC;
+    
   
 }
 .page-nav{
@@ -46,6 +47,7 @@ button{
     justify-content: space-between;
     width: 100%;
     max-width: 452px;
+   
 }
 .logo{
 color: #4D5AE5;
@@ -55,6 +57,7 @@ color: #4D5AE5;
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo-studio{
@@ -80,13 +83,17 @@ color: #4D5AE5;
 }
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
    
 }
 .menu-contact{
     display: flex;
-    column-gap: 40px;
-    
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 .page-contact{
@@ -119,9 +126,9 @@ body{
  }   
 
 .section-hero-container{
-   padding:188px 0;
    background-color:#2E2F42;
    text-align: center;
+   padding: 188px 0 188px;
    }
 
 .main-title{
@@ -131,7 +138,7 @@ body{
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        width: 496px;
+        max-width: 496px;
         margin-left:auto;
         margin-right: auto;
      
@@ -147,7 +154,14 @@ body{
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
         margin-top: 48px;
+        margin-left: auto;
+        margin-right: auto;
 }
 .input:hover,
 .input:focus{
@@ -170,16 +184,21 @@ body{
     clip:rect(0 0 0 0);
     overflow: hidden;
 }    
-
+.features-container{
+    padding: 120px 0 120px;
+}
 .menu-item-second{
-width: calc((100% - 72px) / 4);
+width: calc((100% - 72px) / 4)
 }
 
 .menu-second{
     padding: 96px 0;
     display: flex;
-    column-gap: 72px;
+    gap: 24px;
   
+}
+.title-tertiary-features{
+    margin-bottom: 8px;
 }
 
 
@@ -209,8 +228,11 @@ width: calc((100% - 72px) / 4);
 
 /*=============== SECTION-OUR-TEAM============*/
 
+.section-third{
+      padding: 120px 0;
+}
 .container-section-third{
-    padding: 120px 0;
+  
     margin-top: 96px;
     margin-bottom: 96px;
       
@@ -219,26 +241,30 @@ width: calc((100% - 72px) / 4);
 .menu-img-third{
     width: 100%;
     margin-bottom: 32px;
-    border-radius: 0 0 4px 4px;
+   
 }
    
 .menu-third{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 
     
 }
 .menu-item-third{
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4); 
+    border-radius: 0 0 4px 4px;
+}
+.box-container-team{
+    padding: 32px 0;
 }
 .title-tertiary-team{
     text-align: center;
+    margin-bottom: 8px;
 }
 .text-team{
     text-align: center;
-    margin-bottom: 32px;
-
+   
 }
 
 .section-third{
@@ -248,6 +274,9 @@ width: calc((100% - 72px) / 4);
 /*=============== SECTION-OUR-TEAM==================*/
 
 /*=============== SECTION-pORTFOLIO=================*/
+.section-fourth{
+    padding: 120px 0 120px 0
+}
 
 .conteiner-section-forth{
     padding-bottom: 96px ;
@@ -255,6 +284,7 @@ width: calc((100% - 72px) / 4);
 .box-container{
     border: 1px solid #E7E9FC ;
     border-top: none;
+    padding: 32px 16px;
 }
 .menu-fourth{
     display: flex;
@@ -264,18 +294,12 @@ width: calc((100% - 72px) / 4);
     
 }
 .menu-item-fourth{
-    width: calc((100% - 48px) / 3)
+    width: calc((100% - 48px) / 3);
+    
 }
 .title-tertiary-portfolio{
-    padding-top:  32px;
-    padding-left: 16px ;
-
-}
-.text-portfolio{
-    padding-top: 8px;
-    padding-left: 16px;
-    padding-bottom: 32px;
-
+    margin-bottom: 8px;
+   
 }
 
 /*=============== SECTION-pORTFOLIO=================*/
@@ -298,11 +322,10 @@ width: calc((100% - 72px) / 4);
 /*================FOOTER=======================*/
 .page-footer{
     background-color: #2E2F42;
+    padding: 100px 0
 }
 .container-footer{
-    padding-top: 100px;
-    padding-left: 156px;
-    padding-bottom: 100px;
+   
 }
    
 .text-footer{
@@ -324,4 +347,6 @@ width: calc((100% - 72px) / 4);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
